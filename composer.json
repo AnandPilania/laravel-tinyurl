@@ -1,0 +1,23 @@
+{
+    "name": "anandpilania/laravel-tinyurl",
+    "description": "Tinyurl package for Laravel.",
+	"keywords": ["laravel", "anandpilania", "tinyurl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anand Pilania",
+            "email": "pilaniaanand@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+		"anandpilania/support": "self.version",
+		"hashids/hashids": "^1.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "AP\\Tinyurl\\": "src/"
+        }
+    },
+	"suggest": {}
+}
